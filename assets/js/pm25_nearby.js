@@ -16,8 +16,8 @@ $(function () {
     var location_lng;
 
     function showPosition(position) {
-        location_lat = position.coords.latitude != null ? position.coords.latitude : 7.0984158;
-        location_lng = position.coords.longitude != null ? position.coords.longitude : 100.5550427;
+        location_lat = position.coords.latitude != null ? position.coords.latitude : 13.4532334981611;
+        location_lng = position.coords.longitude != null ? position.coords.longitude : 101.186931124051;
         var normalMap = L.tileLayer.ThaiProvider('Google.Normal.Map', {
                 maxZoom: 18,
                 minZoom: 5
