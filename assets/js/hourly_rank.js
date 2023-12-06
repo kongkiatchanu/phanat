@@ -60,12 +60,12 @@ $(function () {
                 var lang = Cookies.get("lang_cookie");
                 if (lang == 'EN') {
                     moment.locale('en');
-                    var time_date = moment(db.stations[0]['log_datetime']).format('ll');
-                    var time_time = moment(db.stations[0]['log_datetime']).format('LT');
+                    var time_date = moment(db[0]['log_datetime']).format('ll');
+                    var time_time = moment(db[0]['log_datetime']).format('LT');
                 } else {
                     moment.locale('th');
-                    var time_date = moment(db.stations[0]['log_datetime']).format('ll');
-                    var time_time = moment(db.stations[0]['log_datetime']).format('LT') + ' น.';
+                    var time_date = moment(db[0]['log_datetime']).format('ll');
+                    var time_time = moment(db[0]['log_datetime']).format('LT') + ' น.';
                 }
                 $('.time').html('<i class="far fa-calendar-alt"></i> ' + time_date + ' | <i class="far fa-clock"></i> ' + time_time);
                 $('.spinkit-loading').removeClass('d-flex');
@@ -76,7 +76,7 @@ $(function () {
                         [10, 20, 50, -1],
                         [10, 20, 50, "All"]
                     ],
-                    data: db.stations,
+                    data: db,
                     columns: [{
                             data: 'dustboy_name'
                         },
