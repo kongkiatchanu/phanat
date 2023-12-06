@@ -176,8 +176,8 @@ $(function () {
                         circle.bindPopup(radius);
                         //table_gps
                         var distance = gps_distance(location_lat, location_lng, value.dustboy_lat, value.dustboy_lon);
-                        db.stations[index].distance = distance;
-                        db_gps[index] = db.stations[index];
+                        db[index].distance = distance;
+                        db_gps[index] = db[index];
                     });
                     //table
                     table = $('#table_pm25_nearby').DataTable({
