@@ -137,12 +137,12 @@ $(function () {
                     var lang = Cookies.get("lang_cookie");
                     if (lang == 'EN') {
                         moment.locale('en');
-                        var time_date = moment(db.stations[0]['log_datetime']).format('ll');
-                        var time_time = moment(db.stations[0]['log_datetime']).format('LT');
+                        var time_date = moment(db[0]['log_datetime']).format('ll');
+                        var time_time = moment(db[0]['log_datetime']).format('LT');
                     } else {
                         moment.locale('th');
-                        var time_date = moment(db.stations[0]['log_datetime']).format('ll');
-                        var time_time = moment(db.stations[0]['log_datetime']).format('LT') + ' น.';
+                        var time_date = moment(db[0]['log_datetime']).format('ll');
+                        var time_time = moment(db[0]['log_datetime']).format('LT') + ' น.';
                     }
                     $('.time').html('<i class="far fa-calendar-alt"></i> ' + time_date + ' | <i class="far fa-clock"></i> ' + time_time);
                     table.destroy();
@@ -151,7 +151,7 @@ $(function () {
                     //marker
                     var db_gps = [{}];
                     var index_aqi = index;
-                    $.each(db.stations, function (index, value) {
+                    $.each(db, function (index, value) {
                         var marker = {};
                         var color_marker = index_aqi == 'us' ? value.us_color : value.th_color;
                         map.removeLayer(marker);
