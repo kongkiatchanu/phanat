@@ -55,7 +55,6 @@ $(function () {
         }
         $.getJSON(data_url, function (db) {
             if (db) {
-                console.log(db);
                 var table = $('#table_pm25_nearby').DataTable();
                 var lang = Cookies.get("lang_cookie");
                 if (lang == 'EN') {
