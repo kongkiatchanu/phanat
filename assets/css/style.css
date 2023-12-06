@@ -89,7 +89,7 @@ html, body {
   position: absolute;
   height: 12px;
   width: 12px;
-  background: #0a89c0;
+  background: #13516c;
   opacity: 1;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -191,7 +191,7 @@ section#main .header .logo img.local {
 section#main .header .line {
   height: 0vh;
   width: 70%;
-  border: 0.75px solid #0a89c0;
+  border: 0.75px solid #13516c;
   margin: 0 auto;
 }
 
@@ -214,16 +214,16 @@ section#main .header .menu .main_menu {
 section#main .header .menu .main_menu .nav .nav-item .nav-link {
   font-size: 14px;
   font-weight: 600;
-  color: #0a89c0;
+  color: #13516c;
 }
 
 section#main .header .menu .main_menu .nav .nav-item .nav-link:hover {
-  color: #0a89c0;
+  color: #13516c;
 }
 
 section#main .header .menu .main_menu .nav .nav-item .line_active {
   width: 50%;
-  border: 1px solid #0a89c0;
+  border: 1px solid #13516c;
   margin: 0 auto;
 }
 
@@ -258,7 +258,7 @@ section#main .main_content .sub_menu .aqi .btn-group {
 
 section#main .main_content .sub_menu .aqi .btn-group .btn {
   color: #ffffff;
-  background-color: #0a89c0;
+  background-color: #13516c;
   border: none;
   font-size: .75rem;
   font-weight: 600;
@@ -269,7 +269,7 @@ section#main .main_content .sub_menu .aqi .btn-group .btn {
 }
 
 section#main .main_content .sub_menu .aqi .btn-group .dropdown-menu {
-  background-color: #0a89c0;
+  background-color: #13516c;
   border: none;
   font-size: .75rem;
   color: #ffffff;
@@ -282,12 +282,12 @@ section#main .main_content .sub_menu .aqi .btn-group .dropdown-menu .dropdown-it
 
 section#main .main_content .sub_menu .aqi .btn-group .dropdown-menu .dropdown-item:hover {
   color: #76b7b4;
-  background-color: #0a89c0;
+  background-color: #13516c;
 }
 
 section#main .main_content .sub_menu .aqi .btn-group .dropdown-menu .dropdown-item:active, section#main .main_content .sub_menu .aqi .btn-group .dropdown-menu .dropdown-item.active {
   color: #76b7b4;
-  background-color: #0a89c0;
+  background-color: #13516c;
 }
 
 section#main .main_content .sub_menu .lang {
@@ -298,8 +298,8 @@ section#main .main_content .sub_menu .lang {
 
 section#main .main_content .sub_menu .lang button {
   color: #fff;
-  background-color: #0a89c082;
-  border-color: #0a89c000;
+  background-color: #13516c82;
+  border-color: #13516c00;
   border-radius: 50rem;
   font-size: .75rem;
   text-transform: uppercase;
@@ -308,13 +308,13 @@ section#main .main_content .sub_menu .lang button {
 }
 
 section#main .main_content .sub_menu .lang button:hover {
-  background-color: #0a89c0;
-  border-color: #0a89c0;
+  background-color: #13516c;
+  border-color: #13516c;
 }
 
 section#main .main_content .sub_menu .lang button.active {
-  background-color: #0a89c0;
-  border-color: #0a89c0;
+  background-color: #13516c;
+  border-color: #13516c;
   font-weight: 700;
 }
 
@@ -326,7 +326,7 @@ section#main .main_content .map {
       -ms-flex-pack: start;
           justify-content: flex-start;
   height: 74vh;
-  border-top: 3px solid #0a89c0;
+  border-top: 3px solid #13516c;
   padding: 0;
 }
 
@@ -374,7 +374,7 @@ section#main .main_content .map .bg_map #pm25_map .leaflet-control-locate.active
 
 section#main .main_content .map .bg_map #pm25_map .leaflet-control-locate a, section#main .main_content .map .bg_map #us_map .leaflet-control-locate a {
   font-size: .75rem;
-  color: #0a89c0;
+  color: #13516c;
 }
 
 section#main .main_content .map .bg_map #pm25_map .leaflet-bar, section#main .main_content .map .bg_map #us_map .leaflet-bar {
@@ -407,21 +407,21 @@ section#main .main_content .map .bg_map #pm25_map .leaflet-control-layers, secti
 }
 
 section#main .main_content .map .bg_map #pm25_map path.leaflet-interactive, section#main .main_content .map .bg_map #us_map path.leaflet-interactive {
-  stroke: #0a89c0;
+  stroke: #13516c;
   stroke-width: 2;
-  fill: #0a89c0;
+  fill: #13516c;
   fill-opacity: 0.1;
 }
 
 section#main .main_content .map .bg_map #pm25_map path.leaflet-control-locate-circle, section#main .main_content .map .bg_map #us_map path.leaflet-control-locate-circle {
-  stroke: #0a89c0;
+  stroke: #13516c;
   stroke-width: 2;
-  fill: #0a89c0;
+  fill: #13516c;
   fill-opacity: 0.2;
 }
 
 section#main .main_content .map .bg_map #pm25_map circle, section#main .main_content .map .bg_map #us_map circle {
-  fill: #0a89c0 !important;
+  fill: #13516c !important;
 }
 
 section#main .main_content .map .bg_map #pm25_map .custom_marker, section#main .main_content .map .bg_map #us_map .custom_marker {
@@ -501,7 +501,7 @@ section#main .main_content .map .bg_map .pm_aqi .pm .title_pm_aqi, section#main 
 }
 
 section#main .main_content .map .bg_map .pm_aqi .pm .title_pm_aqi, section#main .main_content .map .bg_map .pm_aqi .aqi .title_pm_aqi {
-  background: #0a89c0;
+  background: #13516c;
   color: #ffffff;
   padding-left: 1rem;
 }
@@ -649,7 +649,7 @@ section#main .page_views {
   position: fixed;
   bottom: 18vh;
   right: 0;
-  background: #0a89c0;
+  background: #13516c;
   font-size: 12px;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -670,7 +670,7 @@ section#main .page_views span {
 }
 
 section#main .page_views:hover {
-  background: #0a89c0;
+  background: #13516c;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -681,7 +681,7 @@ section#contact {
   width: 100%;
   height: 100vh;
   z-index: 0;
-  background: #0a89c0;
+  background: #13516c;
 }
 
 section#contact .logo_contact, section#contact .menu_contact, section#contact .footer {
@@ -750,7 +750,7 @@ section#contact .menu_contact .contact .contact_us span a {
 }
 
 section#contact .menu_contact .contact .contact_us span a:hover {
-  color: #0a89c0;
+  color: #13516c;
   text-decoration: none;
 }
 
@@ -775,17 +775,17 @@ section#contact .menu_contact .contact .group_icon a.icon {
 }
 
 section#contact .menu_contact .contact .group_icon a.icon svg g g {
-  fill: #0a89c0;
+  fill: #13516c;
 }
 
 section#contact .menu_contact .contact .group_icon a.icon i {
   width: 26px;
-  color: #0a89c0;
+  color: #13516c;
   font-size: 26px;
 }
 
 section#contact .menu_contact .contact .group_icon a.icon:hover {
-  background: #0a89c0;
+  background: #13516c;
   -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.35);
           box-shadow: 0 6px 10px rgba(0, 0, 0, 0.35);
   -webkit-transform: translateY(-0.25rem);
@@ -813,7 +813,7 @@ section#contact .menu_contact .menu_min .nav .nav-item .nav-link {
 }
 
 section#contact .menu_contact .menu_min .nav .nav-item .nav-link:hover {
-  color: #0a89c0;
+  color: #13516c;
 }
 
 section#contact .menu_contact .menu_min .nav .nav-item .line_active {
@@ -827,7 +827,7 @@ footer {
   position: fixed;
   bottom: 0;
   z-index: 999;
-  background: #0a89c0;
+  background: #13516c;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
@@ -1010,7 +1010,7 @@ footer {
     color: #ffffff;
   }
   section#contact .menu_contact .menu_min .nav .nav-item .nav-link:hover {
-    color: #0a89c0;
+    color: #13516c;
   }
   section#contact .menu_contact .menu_min .nav .nav-item .nav-link.active {
     color: #fafa00;
@@ -1149,7 +1149,7 @@ footer {
     color: #ffffff;
   }
   section#contact .menu_contact .menu_min .nav .nav-item .nav-link:hover {
-    color: #0a89c0;
+    color: #13516c;
   }
   section#contact .menu_contact .menu_min .nav .nav-item .nav-link.active {
     color: #fafa00;
@@ -1688,7 +1688,7 @@ footer {
 
 @-webkit-keyframes text-shadow-drop-bottom {
   0% {
-    color: #0a89c0;
+    color: #13516c;
     text-shadow: 0 0 0 #00000000;
   }
   100% {
@@ -1699,7 +1699,7 @@ footer {
 
 @keyframes text-shadow-drop-bottom {
   0% {
-    color: #0a89c0;
+    color: #13516c;
     text-shadow: 0 0 0 #00000000;
   }
   100% {
@@ -1710,7 +1710,7 @@ footer {
 
 @-webkit-keyframes text-shadow-drop-bottom-icon {
   0% {
-    color: #0a89c0;
+    color: #13516c;
     text-shadow: 0 0 0 #00000000;
   }
   100% {
@@ -1721,7 +1721,7 @@ footer {
 
 @keyframes text-shadow-drop-bottom-icon {
   0% {
-    color: #0a89c0;
+    color: #13516c;
     text-shadow: 0 0 0 #00000000;
   }
   100% {
