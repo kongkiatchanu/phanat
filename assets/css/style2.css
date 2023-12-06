@@ -601,7 +601,7 @@ section#main .main_content .content .main_detail #pm25_nearby_map path.leaflet-i
 }
 
 section#main .main_content .content .main_detail #pm25_nearby_map circle {
-  fill: #13516c !important;
+  fill: #0a89c0 !important;
 }
 
 section#main .main_content .content .main_detail #pm25_nearby_map .custom_marker {
@@ -638,8 +638,8 @@ section#main .main_content .content .main_detail .category button {
   border-radius: 15px;
   font-size: .75rem;
   color: #fff;
-  background-color: #13516c82;
-  border-color: #13516c00;
+  background-color: #0a89c082;
+  border-color: #0a89c000;
 }
 
 section#main .main_content .content .main_detail .category button:hover {
