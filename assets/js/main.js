@@ -82,7 +82,7 @@ $(function () {
         }).addTo(map);
         $.getJSON("https://www-old.cmuccdc.org/api2/dustboy/phanat?v=1", function (db) {
             if (db) {
-                $.each(db.stations, function (index, value) {
+                $.each(db, function (index, value) {
                     var marker = {};
                     var number_title,color_marker,title_en,title,dustboy_icon,chk_safety;
                     //////////////////////////////////////////////////////////////
