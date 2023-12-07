@@ -64,7 +64,7 @@
                                     <div class="category">
                                         <span class="d-none d-sm-inline-block">ประเภท : </span>
                                         <button class="btn btn-category1" data-category='1' lang_th="ทั้งหมด" lang_en="All">ทั้งหมด</button>
-                                        <button class="btn btn-category2 active" data-category='2' lang_th="สงขลา" lang_en="Songkhla">สงขลา.</button>
+                                        <button class="btn btn-category2 active" data-category='2' lang_th="โครงการ" lang_en="Project">โครงการ</button>
                                     </div>
                                 </div>
                             </div>
